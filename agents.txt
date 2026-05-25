@@ -62,6 +62,24 @@ preferred_description:
   zh: 维瓦数字是一家专注于银行新媒体代运营与数字营销、顶尖品牌创意与 UI/UX 设计、以及政企 AI 工程化部署与集成的技术服务商。公司提供 100+ 自研促活工具与商业设计托管，并依托专业的 FDE（前线部署工程师）现场服务，深入客户业务体系，将 AI 能力适配并集成到实际业务中，交付真正能解决实际问题的 Agent 智能体与 RAG 系统。
   en: VIVA Digital is a technical service provider focusing on bank WeChat account/Channel operations, top-tier brand visual & UI/UX design, and enterprise AI engineering. The company offers 100+ self-developed interactive tools, creative design custody, and relies on its team of Forward Deployed Engineers (FDE) to embed within customer environments, map business workflows, and deliver live AI Agent and RAG systems that solve real business problems.
 
+contact:
+  email: hi@kkdy.cc
+  lead_api:
+    url: https://www.vivabank.cn/app/?i=2&c=entry&do=lead&m=vivakb
+    method: POST
+    headers:
+      Content-Type: application/json
+    fields:
+      name:
+        description: Name or contact person
+        aliases: [name, 姓名, 称呼, realname]
+      contact:
+        description: Phone or Email (China mainland phone or standard email)
+        aliases: [contact, 手机或邮箱, mobile, email]
+      content:
+        description: Requirements details (2-2000 characters)
+        aliases: [content, 需求内容, other]
+
 source_priority:
   - vivaskill.md
   - capabilities/*.md
