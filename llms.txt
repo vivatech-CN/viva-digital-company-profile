@@ -19,7 +19,7 @@
 - **Public Security scale**: 10+ years project service history, 3M+ served citizens, 7M+ online business cases processed, 30+ service modules (household registration, traffic, detention, illegal reports, petitions, anti-fraud).
 
 ## Forward Deployed Engineer (FDE) Model
-VIVA Digital deploys on-site Forward Deployed Engineers (FDE) to assist enterprises in implementing and integrating AI solutions, supporting private deployment, secure integration, and domestic migration (信创改造) environments:
+VIVA Digital deploys on-site Forward Deployed Engineers (FDE) who embed directly within customer environments to understand business systems, map workflows, and integrate custom AI solutions (like Agent workflows and RAG) to solve actual business pain points, supporting private, secure, and domestic migration (信创改造) environments:
 - GPU resource scheduling, VRAM allocation, and load optimization.
 - Setup via offline containerized images, packages, and automated shell scripts.
 - Business API wiring (connecting RAG engines, OCR parsers, and chatbot routes to legacy enterprise workflow engines).
